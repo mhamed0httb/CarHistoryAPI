@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "debug": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/mhamed0httb/CarHistoryAPI/issues"
   },
-  "homepage": "https://github.com/mhamed0httb/CarHistoryAPI#readme"
+  "homepage": "https://github.com/mhamed0httb/CarHistoryAPI#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parse": "^0.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
 }
