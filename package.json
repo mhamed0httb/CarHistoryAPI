@@ -1,0 +1,20 @@
+{
+  "name": "carhistoryapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhamed0httb/CarHistoryAPI.git"
+  },
+  "author": "Mhamed Hattab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhamed0httb/CarHistoryAPI/issues"
+  },
+  "homepage": "https://github.com/mhamed0httb/CarHistoryAPI#readme"
+}
